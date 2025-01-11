@@ -13,7 +13,7 @@ import google.generativeai as genai
 
 r = sr.Recognizer()  # Recognizes the sound
 engine = pyttsx3.init()
-newsapi = "857c5a9351664770a4fe29697f9f2151"
+newsapi = "news api"
 link = "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=newsapi"
 
 def speak(text):
